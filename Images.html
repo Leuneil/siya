@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid pt-3">
+      <div class="row">
+        <div class="btn-vertical col-1">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Topics</button>
+          <div class="dropdown-menu show">
+            <div class="btn-group-vertical mx-2 gap-1">
+          
+              <a class="btn btn-outline-primary" href="index.html">Introduction</a>
+              <a class="btn btn-outline-primary" href="Containers.html">Containers</a>
+              <a class="btn btn-outline-primary" href="Grids.html">Grids</a>
+              <a class="btn btn-outline-primary" href="Text-Typography.html">Text/Typography</a>
+              <a class="btn btn-outline-primary" href="Colors.html">Colors</a>
+              <a class="btn btn-outline-primary" href="Tables.html">Tables</a>
+              <a class="btn btn-outline-primary active" href="Images.html">Images</a>
+              <a class="btn btn-outline-primary" href="Jombotron.html">Jombotron</a>
+              <a class="btn btn-outline-primary" href="Alert.html">Alert</a>
+              <a class="btn btn-outline-primary" href="Buttons.html">Buttons</a>
+              <a class="btn btn-outline-primary" href="Progressbar.html">Progress Bars</a>
+              <a class="btn btn-outline-primary" href="Spinners.html">Spinners</a>
+              <a class="btn btn-outline-primary" href="Pagination.html">Pagination</a>
+          
+  
+            </div>
+          </div>
+        </div>
+
+        <div class="col-10 mx-5">
+          <h2 class="text-center pb-3">(Bootstrap 5)</h2>
+          <div class="row">
+            <div class="col">
+              <dl>
+            
+                <dt><h3>Images</h3></dt>
+                <ul>
+                  <li>
+                    <dd><h4>Image Shapes</h4></dd>
+                    
+                  </li>
+
+                  <ul>
+                    <li>
+                      <dd>Rounded Corners</dd>
+                      - The <code>.rounded</code> class adds rounded corners to an image:
+                      <img class="img-fluid" src="img/Image-Rounded.png">
+                    </li>
+                    <li>
+                      <dd>Circle</dd>
+                      - The <code>.rounded-circle</code> class shapes the image to a circle:
+                      <img class="img-fluid" src="img/Image-Circle.png">
+                    </li>
+                    <li>
+                      <dd>Thumbnail</dd>
+                      - The <code>.img-thumbnail</code> class shapes the image to a thumbnail (bordered):
+                      <img class="img-fluid" src="img/Image-Thumbnail.png">
+                    </li>
+                    
+                  </ul>
+                  <br>
+                  <button type="button" class="btn btn-primary" onclick="location.href='Images-Example.html'">Example</button>
+                </ul>
+    
+                
+              </dl>
+            </div>
+            <div class="col">
+              <dl>
+                <dt><h3><br></h3></dt>
+                <ul>
+                  <li>
+                    <dd><h3>Aligning Images</h3></dd>
+                  </li>
+
+                  <ul>
+                    <li>
+                      <dd>Align image left or right</dd>
+                      Float an image to the left with the <code>.float-start</code> class or to the right with <code>.float-end:</code>
+                      <img class="img-fluid" src="img/Image-Align-Left-Right.png">
+                    </li>
+                    <br>
+  
+                    <li>
+                      <dd>Centered Image</dd>
+                      Center an image by adding the utility classes <code>.mx-auto</code> (margin:auto) and <code>.d-block</code> (display:block) to the image:
+                      <img class="img-fluid" src="img/Image-Centered.png">
+                    </li>
+                    <br>
+  
+                    <li>
+                      <dd>Responsive Image</dd>
+                      - Images come in all sizes. So do screens. Responsive images automatically adjust to fit the size of the screen.<br>
+  
+                      - Create responsive images by adding an <code>.img-fluid</code> class to the <code><</code><code>img></code> tag. The image will then scale nicely to the parent element.<br>
+  
+                      - The <code>.img-fluid</code> class applies <code>max-width: 100%;</code> and <code>height: auto;</code> to the image:
+                      <img class="img-fluid" src="img/Image-Responsive.png">
+                    </li>
+                  </ul>
+                </ul>
+              </dl>
+            </div>
+          </div>
+
+          
+        </div>
+
+
+        
+      </div>
+
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-1">
+  
+        </div>
+        <div class="col-10 mx-5">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%">DONE!</div>
+          </div>
+          <br>
+          
+          
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="Tables.html">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="Colors.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="Jombotron.html">Next</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
